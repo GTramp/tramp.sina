@@ -12,6 +12,13 @@
 		18EA104E2064CE800072D401 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18EA104C2064CE800072D401 /* Main.storyboard */; };
 		18EA10502064CE800072D401 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18EA104F2064CE800072D401 /* Assets.xcassets */; };
 		18EA10532064CE800072D401 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18EA10512064CE800072D401 /* LaunchScreen.storyboard */; };
+		18F7B6422065204B0068B2EE /* TRMainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F7B6412065204B0068B2EE /* TRMainController.swift */; };
+		18F7B644206520700068B2EE /* TRLikeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F7B643206520700068B2EE /* TRLikeController.swift */; };
+		18F7B646206520840068B2EE /* TRTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F7B645206520840068B2EE /* TRTableController.swift */; };
+		18F7B648206520920068B2EE /* TRToolBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F7B647206520920068B2EE /* TRToolBarController.swift */; };
+		18F7B64A206520A30068B2EE /* TRContentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F7B649206520A30068B2EE /* TRContentController.swift */; };
+		18F7B64C206520AF0068B2EE /* TRBaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F7B64B206520AF0068B2EE /* TRBaseController.swift */; };
+		18F7B64E20652C820068B2EE /* TRImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F7B64D20652C820068B2EE /* TRImageView.swift */; };
 		72E22F2F35C2CCD29B42885A /* Pods_tramp_sina.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FA8C941392AF78A3226AD68 /* Pods_tramp_sina.framework */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +30,13 @@
 		18EA104F2064CE800072D401 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18EA10522064CE800072D401 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18EA10542064CE800072D401 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F7B6412065204B0068B2EE /* TRMainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TRMainController.swift; sourceTree = "<group>"; };
+		18F7B643206520700068B2EE /* TRLikeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TRLikeController.swift; sourceTree = "<group>"; };
+		18F7B645206520840068B2EE /* TRTableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TRTableController.swift; sourceTree = "<group>"; };
+		18F7B647206520920068B2EE /* TRToolBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TRToolBarController.swift; sourceTree = "<group>"; };
+		18F7B649206520A30068B2EE /* TRContentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TRContentController.swift; sourceTree = "<group>"; };
+		18F7B64B206520AF0068B2EE /* TRBaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TRBaseController.swift; sourceTree = "<group>"; };
+		18F7B64D20652C820068B2EE /* TRImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TRImageView.swift; sourceTree = "<group>"; };
 		92B9D3E285262B291C81C22D /* Pods-tramp.sina.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tramp.sina.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tramp.sina/Pods-tramp.sina.debug.xcconfig"; sourceTree = "<group>"; };
 		9E2C47A99570F689F7B45E86 /* Pods-tramp.sina.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tramp.sina.release.xcconfig"; path = "Pods/Target Support Files/Pods-tramp.sina/Pods-tramp.sina.release.xcconfig"; sourceTree = "<group>"; };
 		9FA8C941392AF78A3226AD68 /* Pods_tramp_sina.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tramp_sina.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,6 +75,7 @@
 		18EA10472064CE800072D401 /* tramp.sina */ = {
 			isa = PBXGroup;
 			children = (
+				18F7B63C20651FDB0068B2EE /* develop */,
 				18EA10482064CE800072D401 /* AppDelegate.swift */,
 				18EA104A2064CE800072D401 /* ViewController.swift */,
 				18EA104C2064CE800072D401 /* Main.storyboard */,
@@ -69,6 +84,53 @@
 				18EA10542064CE800072D401 /* Info.plist */,
 			);
 			path = tramp.sina;
+			sourceTree = "<group>";
+		};
+		18F7B63C20651FDB0068B2EE /* develop */ = {
+			isa = PBXGroup;
+			children = (
+				18F7B63D20651FED0068B2EE /* main */,
+				18F7B63E20651FF20068B2EE /* program1 */,
+				18F7B63F20651FFD0068B2EE /* program2 */,
+				18F7B640206520060068B2EE /* program3 */,
+			);
+			name = develop;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		18F7B63D20651FED0068B2EE /* main */ = {
+			isa = PBXGroup;
+			children = (
+				18F7B6412065204B0068B2EE /* TRMainController.swift */,
+				18F7B64B206520AF0068B2EE /* TRBaseController.swift */,
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
+		18F7B63E20651FF20068B2EE /* program1 */ = {
+			isa = PBXGroup;
+			children = (
+				18F7B643206520700068B2EE /* TRLikeController.swift */,
+				18F7B64D20652C820068B2EE /* TRImageView.swift */,
+			);
+			path = program1;
+			sourceTree = "<group>";
+		};
+		18F7B63F20651FFD0068B2EE /* program2 */ = {
+			isa = PBXGroup;
+			children = (
+				18F7B645206520840068B2EE /* TRTableController.swift */,
+				18F7B649206520A30068B2EE /* TRContentController.swift */,
+			);
+			path = program2;
+			sourceTree = "<group>";
+		};
+		18F7B640206520060068B2EE /* program3 */ = {
+			isa = PBXGroup;
+			children = (
+				18F7B647206520920068B2EE /* TRToolBarController.swift */,
+			);
+			path = program3;
 			sourceTree = "<group>";
 		};
 		7E05AE477E11C918672FFB9A /* Pods */ = {
@@ -117,6 +179,7 @@
 		18EA103D2064CE800072D401 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = TR;
 				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = tramp;
@@ -198,9 +261,12 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-tramp.sina/Pods-tramp.sina-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -214,8 +280,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18F7B646206520840068B2EE /* TRTableController.swift in Sources */,
+				18F7B644206520700068B2EE /* TRLikeController.swift in Sources */,
+				18F7B6422065204B0068B2EE /* TRMainController.swift in Sources */,
 				18EA104B2064CE800072D401 /* ViewController.swift in Sources */,
+				18F7B64E20652C820068B2EE /* TRImageView.swift in Sources */,
+				18F7B64A206520A30068B2EE /* TRContentController.swift in Sources */,
 				18EA10492064CE800072D401 /* AppDelegate.swift in Sources */,
+				18F7B64C206520AF0068B2EE /* TRBaseController.swift in Sources */,
+				18F7B648206520920068B2EE /* TRToolBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,6 +429,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6W77EGW7S3;
 				INFOPLIST_FILE = tramp.sina/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = im.guoyi.tramp.sina;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -372,6 +446,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6W77EGW7S3;
 				INFOPLIST_FILE = tramp.sina/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = im.guoyi.tramp.sina;
 				PRODUCT_NAME = "$(TARGET_NAME)";
