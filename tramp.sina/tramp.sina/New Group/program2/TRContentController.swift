@@ -14,7 +14,23 @@ class TRContentController: TRBaseController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        view.addSubview(label)
+        label.snp.makeConstraints { (maker) in
+            maker.center.equalToSuperview()
+        }
     }
 
+    var text: String? {
+        didSet {
+            label.text = text
+        }
+    }
 
+    private lazy var label: UILabel = {
+        let label = UILabel.init()
+        return label
+    }()
+    
+    
 }

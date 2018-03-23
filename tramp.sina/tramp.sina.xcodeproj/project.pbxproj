@@ -19,6 +19,7 @@
 		18F7B64A206520A30068B2EE /* TRContentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F7B649206520A30068B2EE /* TRContentController.swift */; };
 		18F7B64C206520AF0068B2EE /* TRBaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F7B64B206520AF0068B2EE /* TRBaseController.swift */; };
 		18F7B64E20652C820068B2EE /* TRImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F7B64D20652C820068B2EE /* TRImageView.swift */; };
+		18F7B650206535400068B2EE /* TRToolBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F7B64F206535400068B2EE /* TRToolBar.swift */; };
 		72E22F2F35C2CCD29B42885A /* Pods_tramp_sina.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FA8C941392AF78A3226AD68 /* Pods_tramp_sina.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +38,7 @@
 		18F7B649206520A30068B2EE /* TRContentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TRContentController.swift; sourceTree = "<group>"; };
 		18F7B64B206520AF0068B2EE /* TRBaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TRBaseController.swift; sourceTree = "<group>"; };
 		18F7B64D20652C820068B2EE /* TRImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TRImageView.swift; sourceTree = "<group>"; };
+		18F7B64F206535400068B2EE /* TRToolBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TRToolBar.swift; sourceTree = "<group>"; };
 		92B9D3E285262B291C81C22D /* Pods-tramp.sina.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tramp.sina.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tramp.sina/Pods-tramp.sina.debug.xcconfig"; sourceTree = "<group>"; };
 		9E2C47A99570F689F7B45E86 /* Pods-tramp.sina.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tramp.sina.release.xcconfig"; path = "Pods/Target Support Files/Pods-tramp.sina/Pods-tramp.sina.release.xcconfig"; sourceTree = "<group>"; };
 		9FA8C941392AF78A3226AD68 /* Pods_tramp_sina.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tramp_sina.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -129,6 +131,7 @@
 			isa = PBXGroup;
 			children = (
 				18F7B647206520920068B2EE /* TRToolBarController.swift */,
+				18F7B64F206535400068B2EE /* TRToolBar.swift */,
 			);
 			path = program3;
 			sourceTree = "<group>";
@@ -283,6 +286,7 @@
 				18F7B646206520840068B2EE /* TRTableController.swift in Sources */,
 				18F7B644206520700068B2EE /* TRLikeController.swift in Sources */,
 				18F7B6422065204B0068B2EE /* TRMainController.swift in Sources */,
+				18F7B650206535400068B2EE /* TRToolBar.swift in Sources */,
 				18EA104B2064CE800072D401 /* ViewController.swift in Sources */,
 				18F7B64E20652C820068B2EE /* TRImageView.swift in Sources */,
 				18F7B64A206520A30068B2EE /* TRContentController.swift in Sources */,

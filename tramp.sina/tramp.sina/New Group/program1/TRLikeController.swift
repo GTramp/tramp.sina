@@ -22,22 +22,22 @@ class TRLikeController: TRBaseController {
     }
     
     // MARK: - 属性 -
-    lazy var tipLabel:UILabel = {
+    private lazy var tipLabel:UILabel = {
         let label = UILabel.init()
         label.text = "请猛戳"
         label.font = UIFont.systemFont(ofSize: 28)
         return label
     }()
     
-    lazy var line: UIView = {
+    private lazy var line: UIView = {
         let view = UIView.init()
         view.backgroundColor = UIColor.red
         return view
     }()
     
-    let origin_x: CGFloat = UIScreen.main.bounds.width - 100
-    let origin_y: CGFloat = UIScreen.main.bounds.height - 32
-    let duration: CGFloat = 2.5
+    private let origin_x: CGFloat = UIScreen.main.bounds.width - 100
+    private let origin_y: CGFloat = UIScreen.main.bounds.height - 32
+    private let duration: CGFloat = 2.5
     
 }
 
@@ -124,7 +124,7 @@ extension TRLikeController : CAAnimationDelegate {
         change()
         change()
         change()
-    
+        
         
         let animation = CAKeyframeAnimation.init()
         animation.keyPath = "position"
